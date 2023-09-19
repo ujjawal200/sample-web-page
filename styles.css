@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #00529B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-left h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right nav ul {
+    list-style-type: none;
+}
+
+.header-right nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-right nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the sections */
+.info-bg {
+    background-color: #F0F0F0;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Style the about section */
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 0 0 60%;
+}
+
+.about-image {
+    flex: 0 0 35%;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the services */
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 0 0 calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the footer */
+footer {
+    background-color: #00529B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
